@@ -66,7 +66,7 @@ export default defineComponent({
       let weatherDisplay = ref(false);
       let weatherData = ref(null);
       let apiURL = 'https://api.openweathermap.org/data/2.5/weather';
-      let apiKey = ''; //add your own apiKey
+      let apiKey = ''; // add your own apiKey
 
       function getLocation(){
       navigator.geolocation.getCurrentPosition(position => {
